@@ -1,7 +1,15 @@
 ![header ](imgs/of_banner.png)
 _Figure: Comparison of OpenFold and AlphaFold2 predictions to the experimental structure of PDB 7KDX, chain B._
 
+# Introduction
+This branch is a fork version of openfold (commit id:103d0370ad9ce07579c20fa9c889a632f9b16618).
 
+We largely delete the training code of openfold, update the dependencies, and provide several scripts for structure prediction/foldability evaluation.
+
+
+
+
+Below is the original description of OpenFold.
 # OpenFold
 
 A faithful but trainable PyTorch reproduction of DeepMind's 
